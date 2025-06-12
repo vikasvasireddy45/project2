@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Fresh Eggs & Poultry - Vijayawada | Your Farm Name</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="images/farm_logo.png" alt="Your Farm Logo">
+                <span>Farm Fresh</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Our Farm</a></li>
+                    <li><a href="#products">Eggs</a></li>
+                    <li><a href="#poultry">Poultry</a></li>
+                    <li><a href="#delivery">Delivery</a></li>
+                    <li><a href="#contact-section">Contact</a></li> </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#" class="search-icon"><img src="images/search_icon.png" alt="Search"></a>
+                <a href="#" class="cart-icon" id="open-cart-btn"><img src="images/cart_icon.png" alt="Cart"><span id="cart-count">0</span></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <h1>Farm Fresh <br> Eggs & Poultry</h1>
+                    <p>Direct from Our Happy Hens in Vijayawada to Your Table and Farm.</p>
+                    <a href="#products" class="btn btn-primary">Shop Eggs & Poultry</a>
+                </div>
+                <div class="hero-image"></div>
+            </div>
+        </section>
+
+        <section id="products" class="products-section">
+            <div class="container">
+                <h2>Our Fresh Eggs</h2>
+                <div class="product-list">
+                    <div class="product-card">
+                        <img src="images/egg_pack_12.png" alt="Farm Fresh White Eggs 12 Pc">
+                        <h3>Farm Fresh White Eggs (12 Pc)</h3>
+                        <p>Naturally laid, nutrient-rich white eggs.</p>
+                        <div class="price-add">
+                            <span class="price">₹ 75.00</span>
+                            <button class="add-to-cart-btn" data-product-id="egg_white_12" data-name="Farm Fresh White Eggs (12 Pc)" data-price="75.00">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="images/egg_pack_6_brown.png" alt="Organic Brown Eggs 6 Pc">
+                        <h3>Organic Brown Eggs (6 Pc)</h3>
+                        <p>From free-range hens, packed with goodness.</p>
+                        <div class="price-add">
+                            <span class="price">₹ 90.00</span>
+                            <button class="add-to-cart-btn" data-product-id="egg_brown_6" data-name="Organic Brown Eggs (6 Pc)" data-price="90.00">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="images/egg_tray_30.png" alt="Jumbo Egg Tray 30 Pc">
+                        <h3>Jumbo Egg Tray (30 Pc)</h3>
+                        <p>Economical pack for your family's needs.</p>
+                        <div class="price-add">
+                            <span class="price">₹ 180.00</span>
+                            <button class="add-to-cart-btn" data-product-id="egg_jumbo_30" data-name="Jumbo Egg Tray (30 Pc)" data-price="180.00">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="images/naatu_kodi_guddu.png" alt="Desi Country Eggs 6 Pc">
+                        <h3>Desi Country Eggs (6 Pc)</h3>
+                        <p>Traditional *Naatu Kodi Guddu* for authentic taste.</p>
+                        <div class="price-add">
+                            <span class="price">₹ 110.00</span>
+                            <button class="add-to-cart-btn" data-product-id="egg_desi_6" data-name="Desi Country Eggs (6 Pc)" data-price="110.00">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-all">
+                    <a href="#products" class="btn-link">View all eggs <span class="arrow">&rarr;</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="poultry" class="products-section poultry-section">
+            <div class="container">
+                <h2>Our Healthy Poultry</h2>
+                <div class="product-list">
+                    <div class="product-card">
+                        <img src="images/desi_chicks.png" alt="Desi Chicks">
+                        <h3>Desi (Country) Chicks</h3>
+                        <p>Healthy, active day-old or week-old desi chicks. Ready for your farm.</p>
+                        <div class="price-add">
+                            <span class="price">₹ 50.00 / chick</span>
+                            <button class="enquire-now-btn" data-product-name="Desi (Country) Chicks">Enquire Now</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="images/broiler_chicks.png" alt="Broiler Chicks">
+                        <h3>Broiler Chicks</h3>
+                        <p>Fast-growing broiler chicks, ideal for commercial meat production.</p>
+                        <div class="price-add">
+                            <span class="price">₹ 40.00 / chick</span>
+                            <button class="enquire-now-btn" data-product-name="Broiler Chicks">Enquire Now</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="images/layer_hens.png" alt="Layer Hens">
+                        <h3>Layer Hens (Ready to Lay)</h3>
+                        <p>Productive layer hens, ready to start laying fresh eggs for your farm.</p>
+                        <div class="price-add">
+                            <span class="price">₹ 350.00 / hen</span>
+                            <button class="enquire-now-btn" data-product-name="Layer Hens (Ready to Lay)">Enquire Now</button>
+                        </div>
+                    </div>
+
+                     <div class="product-card">
+                        <img src="images/desi_rooster.png" alt="Adult Desi Rooster">
+                        <h3>Adult Desi Rooster</h3>
+                        <p>Strong and healthy desi roosters for breeding or meat.</p>
+                        <div class="price-add">
+                            <span class="price">₹ 600.00 / bird</span>
+                            <button class="enquire-now-btn" data-product-name="Adult Desi Rooster">Enquire Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-all">
+                    <a href="#contact-section" class="btn-link">Contact for Bulk Poultry <span class="arrow">&rarr;</span></a>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="about" class="about-us-section">
+            <div class="container about-grid">
+                <div class="about-image">
+                    <img src="images/happy_hens_farm.jpg" alt="Happy Hens at Our Farm">
+                </div>
+                <div class="about-text">
+                    <h2>Our Commitment to Quality & Healthy Birds</h2>
+                    <p>At **[Your Farm Name]**, nestled in the serene outskirts of Vijayawada, we are dedicated to raising healthy poultry and providing the freshest, most nutritious eggs directly to your home. Our hens roam freely in a clean environment, fed with natural, wholesome grains, ensuring superior quality in every egg.</p>
+                    <p>Beyond eggs, we also offer a variety of healthy chicks and adult poultry raised with utmost care and ethical practices. Whether you're looking for egg layers, broilers, or traditional desi birds, we prioritize the well-being of our birds, which translates to healthier, thriving poultry for your farm or home. Experience the difference of farm-fresh goodness and healthy birds!</p>
+                    <a href="#" class="btn btn-secondary">Learn More About Our Farm</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="delivery" class="delivery-section">
+            <div class="container">
+                <h2>Fast & Fresh Delivery in Vijayawada</h2>
+                <p>We ensure your eggs and poultry reach you quickly and safely. Enjoy convenient home delivery across Vijayawada and nearby areas.</p>
+                <a href="#contact-section" class="btn btn-primary">Check Delivery Areas</a>
+            </div>
+        </section>
+
+        <section id="contact-section" class="contact-section">
+            <div class="container">
+                <h2>Get in Touch / Bulk Inquiry</h2>
+                <p>Have questions about our products, delivery, or looking for a bulk order of eggs or poultry? Fill out the form below or contact us directly!</p>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="contact-name">Your Name</label>
+                        <input type="text" id="contact-name" name="contact-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Your Email</label>
+                        <input type="email" id="contact-email" name="contact-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-phone">Your Phone (Optional)</label>
+                        <input type="tel" id="contact-phone" name="contact-phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Message / Inquiry Details</label>
+                        <textarea id="contact-message" name="contact-message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Inquiry</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="images/farm_logo_white.png" alt="Farm Fresh Eggs Logo">
+                <span>Farm Fresh</span>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Our Farm</a></li>
+                    <li><a href="#products">Eggs</a></li>
+                    <li><a href="#poultry">Poultry</a></li>
+                    <li><a href="#delivery">Delivery Info</a></li>
+                    <li><a href="#contact-section">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>📞 +91 8790869351</p>
+                <p>📧 tirumalareddyvenkat5@gmail.com</p>
+                <p>📍 Vijayawada, Andhra Pradesh, India</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <a href="#"><img src="images/facebook_icon.png" alt="Facebook"></a>
+                <a href="#"><img src="images/instagram_icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 fresh farm. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <div class="cart-overlay" id="cart-overlay">
+        <div class="cart-sidebar">
+            <button class="close-cart-btn" id="close-cart-btn">&times;</button>
+            <h2>Your Cart</h2>
+            <div id="cart-items" class="cart-items">
+                <p class="empty-cart-message">Your cart is empty.</p>
+            </div>
+            <div class="cart-summary">
+                <p>Total: <span id="cart-total">₹ 0.00</span></p>
+                <button class="btn btn-primary" id="proceed-to-order-btn">Proceed to Order</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="order-modal-overlay" id="order-modal-overlay">
+        <div class="order-modal">
+            <button class="close-modal-btn" id="close-order-modal-btn">&times;</button>
+            <h2>Complete Your Order</h2>
+            <div class="order-summary-modal">
+                <h3>Order Summary:</h3>
+                <div id="modal-order-summary"></div>
+                <p>Total: <span id="modal-cart-total">₹ 0.00</span></p>
+            </div>
+            <form class="order-form" id="order-form">
+                <div class="form-group">
+                    <label for="customer-name">Full Name</label>
+                    <input type="text" id="customer-name" name="customer-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="customer-phone">Phone Number</label>
+                    <input type="tel" id="customer-phone" name="customer-phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="customer-address">Delivery Address</label>
+                    <textarea id="customer-address" name="customer-address" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="delivery-location">Select Your Area in Vijayawada</label>
+                    <select id="delivery-location" name="delivery-location" required>
+                        <option value="">-- Select Area --</option>
+                        <option value="Benz Circle">Benz Circle</option>
+                        <option value="Gunadala">Gunadala</option>
+                        <option value="Labbipeta">Labbipeta</option>
+                        <option value="Moghalrajpuram">Moghalrajpuram</option>
+                        <option value="Gannavaram">Gannavaram</option>
+                        <option value="Kankipadu">Kankipadu</option>
+                        <option value="Vijayawada Rural">Vijayawada Rural (Specify details)</option>
+                        <option value="Other">Other (Outside Vijayawada - contact us)</option>
+                    </select>
+                </div>
+
+                <div class="form-group payment-options">
+                    <label>Payment Method</label>
+                    <div>
+                        <input type="radio" id="payment-online" name="payment-method" value="online" checked>
+                        <label for="payment-online">Online Payment (UPI/Card/Netbanking)</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="payment-offline" name="payment-method" value="offline">
+                        <label for="payment-offline">Cash on Delivery (COD)</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Place Order</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="inquiry-modal-overlay" id="inquiry-modal-overlay">
+        <div class="inquiry-modal">
+            <button class="close-modal-btn" id="close-inquiry-modal-btn">&times;</button>
+            <h2>Inquire About <span id="inquiry-product-name">Product</span></h2>
+            <p>Please fill out the form below with your details and specific requirements. We will get back to you shortly!</p>
+            <form class="inquiry-form" id="inquiry-form">
+                <div class="form-group">
+                    <label for="inquiry-name">Your Name</label>
+                    <input type="text" id="inquiry-name" name="inquiry-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="inquiry-email">Your Email</label>
+                    <input type="email" id="inquiry-email" name="inquiry-email" required>
+                </div>
+                 <div class="form-group">
+                    <label for="inquiry-phone">Your Phone Number</label>
+                    <input type="tel" id="inquiry-phone" name="inquiry-phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="inquiry-details">Your Inquiry (e.g., Quantity, Age, Delivery Date)</label>
+                    <textarea id="inquiry-details" name="inquiry-details" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Inquiry</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
